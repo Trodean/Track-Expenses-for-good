@@ -46,8 +46,8 @@ function App() {
       <main className={currentUser ? "container" : "container landing-container"}>
         {!currentUser ? (
           <section className="landing-card">
-            <h1>Smart Expense Tracker</h1>
-            <p>Track, organise, and review your daily expenses.</p>
+            <h1>Track your Expense for good!</h1>
+            <p>Manage your daily expenses in one place.</p>
 
             <div className="landing-actions">
               <button

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Navigationbar({ currentUser, onOpenLogin, onOpenRegister, onLogout }) {
   return (
     <header className="page-header">
-      <h1>Smart Expense Tracker</h1>
-      <p>Track, organise, and review your daily expenses.</p>
+      <h1>Track your Expense for good!</h1>
+      <p>Manage your daily expenses in one place.</p>
 
       <nav className="top-nav">
         <div className="nav-group main-nav">
