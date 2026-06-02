@@ -1,4 +1,9 @@
-# Smart Expense Tracker
+# Track your Expenses for good!
+
+## Demo Video
+
+recorded demonstration video:
+https://youtu.be/IJECrxHQW1M
 
 ## Project Description
 
