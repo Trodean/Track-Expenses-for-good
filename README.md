@@ -218,8 +218,6 @@ After cloning the repository, run the backend and frontend separately by followi
 
 The backend and frontend must be run in separate terminals.
 
----
-
 ## Backend Setup
 
 Open a terminal in the project folder and run:
@@ -243,20 +241,6 @@ The FastAPI documentation can be opened at:
 ```text
 http://127.0.0.1:8000/docs
 ```
-
-The backend will run at:
-
-```text
-http://127.0.0.1:8000
-```
-
-The FastAPI documentation can be opened at:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
----
 
 ## Frontend Setup
 
