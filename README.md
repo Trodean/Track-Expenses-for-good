@@ -212,19 +212,15 @@ The `frontend-react` folder contains the React frontend application.
 ---
 ## Downloading the Project from GitHub
 
-To run this project on a local machine, first clone the public GitHub repository:
+The project can be downloaded from the public GitHub repository:
 
-```bash
-git clone https://github.com/Trodean/Track-Expenses-for-good.git
+https://github.com/Trodean/Track-Expenses-for-good
+
+Users may either clone the repository using Git or download it as a ZIP file from GitHub by selecting:
+
+```text
+Code > Download ZIP
 ```
-
-Then move into the project folder:
-
-```bash
-cd Track-Expenses-for-good
-```
-
-After cloning the repository, run the backend and frontend separately by following the setup instructions below.
 
 --
 
