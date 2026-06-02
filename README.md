@@ -196,6 +196,23 @@ The `frontend-react` folder contains the React frontend application.
 `api.js` contains frontend API request functions for backend communication.
 
 ---
+## Downloading the Project from GitHub
+
+To run this project on a local machine, first clone the public GitHub repository:
+
+```bash
+git clone https://github.com/Trodean/Track-Expenses-for-good.git
+```
+
+Then move into the project folder:
+
+```bash
+cd Track-Expenses-for-good
+```
+
+After cloning the repository, run the backend and frontend separately by following the setup instructions below.
+
+--
 
 ## How to Run the Application
 
@@ -209,9 +226,22 @@ Open a terminal in the project folder and run:
 
 ```bash
 cd BackEnd
+python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 python3 -m uvicorn main:app --reload
+```
+
+The backend will run at:
+
+```text
+http://127.0.0.1:8000
+```
+
+The FastAPI documentation can be opened at:
+
+```text
+http://127.0.0.1:8000/docs
 ```
 
 The backend will run at:
