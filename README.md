@@ -149,10 +149,11 @@ Main functions:
 ## Folder Structure
 
 ```text
-POTI Assignment 2/
+Track-Expenses-for-good/
 ├── BackEnd/
 │   ├── main.py
 │   ├── expenses.db
+│   ├── database_export.sql
 │   └── requirements.txt
 │
 ├── frontend-react/
@@ -160,10 +161,17 @@ POTI Assignment 2/
 │   ├── package.json
 │   ├── package-lock.json
 │   ├── vite.config.js
+│   ├── eslint.config.js
+│   ├── .gitignore
+│   ├── public/
+│   │   ├── favicon.svg
+│   │   └── icons.svg
 │   └── src/
 │       ├── App.jsx
+│       ├── App.css
 │       ├── index.css
 │       ├── main.jsx
+│       ├── assets/
 │       ├── components/
 │       │   ├── AuthModal.jsx
 │       │   └── Navigationbar.jsx
@@ -174,6 +182,7 @@ POTI Assignment 2/
 │       └── services/
 │           └── api.js
 │
+├── .gitignore
 └── README.md
 ```
 
