@@ -265,7 +265,15 @@ The frontend will run at:
 
 ```text
 http://localhost:5173
+
 ```
+## Sample Account
+
+A sample account is included for testing the website:
+
+Username: Jason
+Password: hahahalim
+
 
 ---
 
